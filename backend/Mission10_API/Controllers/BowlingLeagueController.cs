@@ -13,6 +13,7 @@ namespace Mission10_API.Controllers
             _bowlingRepository = temp;
         }
 
+        //get bowler infomration
         [HttpGet]
         public IEnumerable<CombinedData> Get()
         {

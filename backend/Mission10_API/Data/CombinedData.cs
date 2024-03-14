@@ -1,5 +1,6 @@
 ﻿namespace Mission10_API.Data
 {
+    //new model for the data that we want to retrieve
     public class CombinedData
     {
         public string? BowlerName { get; set; }

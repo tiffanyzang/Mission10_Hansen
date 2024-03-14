@@ -14,6 +14,7 @@ namespace Mission10_API.Data
 
         public IEnumerable<CombinedData> GetAllBowlingInfo()
         {
+            //query to get the teams and the bowler tables
             var query = from bowler in _bowlingContext.Bowlers
                         join team in _bowlingContext.Teams on bowler.TeamId equals team.TeamId
                         where team.TeamName == "Marlins" || team.TeamName == "Sharks"

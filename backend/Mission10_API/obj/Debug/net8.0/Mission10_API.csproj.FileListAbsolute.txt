@@ -125,3 +125,4 @@ C:\Users\Tiffany\source\repos\Mission10_Hansen\backend\Mission10_API\obj\Debug\n
 C:\Users\Tiffany\source\repos\Mission10_Hansen\backend\Mission10_API\obj\Debug\net8.0\Mission10_API.pdb
 C:\Users\Tiffany\source\repos\Mission10_Hansen\backend\Mission10_API\obj\Debug\net8.0\Mission10_API.genruntimeconfig.cache
 C:\Users\Tiffany\source\repos\Mission10_Hansen\backend\Mission10_API\obj\Debug\net8.0\ref\Mission10_API.dll
+C:\Users\Tiffany\source\repos\Mission10_Hansen\backend\Mission10_API\obj\Debug\net8.0\Mission10_API.sourcelink.json
