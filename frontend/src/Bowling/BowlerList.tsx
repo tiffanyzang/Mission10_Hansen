@@ -4,6 +4,7 @@ import { Bowler } from '../types/Bowler';
 function BowlerList() {
   const [bowlerData, setBowlerData] = useState<Bowler[]>([]);
 
+  //connection to the bowler json
   useEffect(() => {
     const fetchBowlerData = async () => {
       const rsp = await fetch('https://localhost:44324/BowlingLeague');
@@ -13,6 +14,7 @@ function BowlerList() {
     fetchBowlerData();
   }, []);
 
+  //bowler table with data
   return (
     <div>
       <br></br>
